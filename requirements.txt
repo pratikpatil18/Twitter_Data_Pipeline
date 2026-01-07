@@ -1,0 +1,11 @@
+apache-airflow==2.8.1
+apache-airflow-providers-amazon
+tweepy
+pandas
+numpy
+boto3
+s3fs
+nltk
+textblob
+python-dotenv
+requests
