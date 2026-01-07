@@ -26,12 +26,12 @@ def extract_hashtags(text):
 
 def run_twitter_etl():
 
-    access_key="2008543127557337091-o8p3zV8Q8a3T9iXz8z8wMRgm0d6tOW"
-    access_secret="OWOnuTnrrpGAOCWnZO627YNHI0F5Zjvc1Z0FifQktFEBB"
-    consumer_key="99FLHdWg6nfqOVuAiaHIHDhtY"
-    consumer_secret="Oi8uf1WpfW0dpMz14JfiWGx5j5HkoWoonNvlvahyJtBKYWd5Mg"
+    access_key="access_key_value"
+    access_secret="access_secret_value"
+    consumer_key="consumer_key_value"
+    consumer_secret="consumer_secret_value"
 
-    client = tweepy.Client(bearer_token="AAAAAAAAAAAAAAAAAAAAAC0v6wEAAAAABYDAjGpv5q2EsJyZOvecpWSmJXo%3Dseud02Fix6Do93kyUC1Q8fbgh0dP8DhZOTuiqmuBY7uc3Y1KeU")
+    client = tweepy.Client(bearer_token="bearer_token_value",)
 
     elon_id = "44196397"
 
