@@ -6,7 +6,7 @@ from twitter_etl import run_twitter_etl
 default_args = {
     "owner": "airflow",
     "depends_on_past": False,
-    "email": ["pratikspatil1818@gmail.com"],
+    "email": ["xyz@gmail.com"],
     "email_on_failure": True,
     "email_on_retry": False,
     "retries": 1,
